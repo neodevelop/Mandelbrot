@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E800C6F114645E9800ADCAE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E800C6F014645E9700ADCAE6 /* UIKit.framework */; };
+		E800C6F314645E9800ADCAE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E800C6F214645E9800ADCAE6 /* Foundation.framework */; };
+		E800C6F514645E9800ADCAE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E800C6F414645E9800ADCAE6 /* CoreGraphics.framework */; };
+		E800C6FB14645E9800ADCAE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E800C6F914645E9800ADCAE6 /* InfoPlist.strings */; };
+		E800C6FD14645E9800ADCAE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E800C6FC14645E9800ADCAE6 /* main.m */; };
+		E800C70114645E9800ADCAE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E800C70014645E9800ADCAE6 /* AppDelegate.m */; };
+		E800C70414645E9800ADCAE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E800C70314645E9800ADCAE6 /* ViewController.m */; };
+		E800C70714645E9800ADCAE6 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E800C70514645E9800ADCAE6 /* ViewController_iPhone.xib */; };
+		E800C70A14645E9800ADCAE6 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E800C70814645E9800ADCAE6 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E800C6EC14645E9700ADCAE6 /* Mandelbrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mandelbrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E800C6F014645E9700ADCAE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E800C6F214645E9800ADCAE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E800C6F414645E9800ADCAE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E800C6F814645E9800ADCAE6 /* Mandelbrot-Info.plist */ = {isa = PBXFileReference; path = "Mandelbrot-Info.plist"; sourceTree = "<group>"; };
+		E800C6FA14645E9800ADCAE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E800C6FC14645E9800ADCAE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E800C6FE14645E9800ADCAE6 /* Mandelbrot-Prefix.pch */ = {isa = PBXFileReference; path = "Mandelbrot-Prefix.pch"; sourceTree = "<group>"; };
+		E800C6FF14645E9800ADCAE6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E800C70014645E9800ADCAE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E800C70214645E9800ADCAE6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E800C70314645E9800ADCAE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E800C70614645E9800ADCAE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		E800C70914645E9800ADCAE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E800C6E914645E9700ADCAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E800C6F114645E9800ADCAE6 /* UIKit.framework in Frameworks */,
+				E800C6F314645E9800ADCAE6 /* Foundation.framework in Frameworks */,
+				E800C6F514645E9800ADCAE6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E800C6E114645E9700ADCAE6 = {
+			isa = PBXGroup;
+			children = (
+				E800C6F614645E9800ADCAE6 /* Mandelbrot */,
+				E800C6EF14645E9700ADCAE6 /* Frameworks */,
+				E800C6ED14645E9700ADCAE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E800C6ED14645E9700ADCAE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E800C6EC14645E9700ADCAE6 /* Mandelbrot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E800C6EF14645E9700ADCAE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E800C6F014645E9700ADCAE6 /* UIKit.framework */,
+				E800C6F214645E9800ADCAE6 /* Foundation.framework */,
+				E800C6F414645E9800ADCAE6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E800C6F614645E9800ADCAE6 /* Mandelbrot */ = {
+			isa = PBXGroup;
+			children = (
+				E800C6FF14645E9800ADCAE6 /* AppDelegate.h */,
+				E800C70014645E9800ADCAE6 /* AppDelegate.m */,
+				E800C70214645E9800ADCAE6 /* ViewController.h */,
+				E800C70314645E9800ADCAE6 /* ViewController.m */,
+				E800C70514645E9800ADCAE6 /* ViewController_iPhone.xib */,
+				E800C70814645E9800ADCAE6 /* ViewController_iPad.xib */,
+				E800C6F714645E9800ADCAE6 /* Supporting Files */,
+			);
+			path = Mandelbrot;
+			sourceTree = "<group>";
+		};
+		E800C6F714645E9800ADCAE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E800C6F814645E9800ADCAE6 /* Mandelbrot-Info.plist */,
+				E800C6F914645E9800ADCAE6 /* InfoPlist.strings */,
+				E800C6FC14645E9800ADCAE6 /* main.m */,
+				E800C6FE14645E9800ADCAE6 /* Mandelbrot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E800C6EB14645E9700ADCAE6 /* Mandelbrot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E800C70D14645E9800ADCAE6 /* Build configuration list for PBXNativeTarget "Mandelbrot" */;
+			buildPhases = (
+				E800C6E814645E9700ADCAE6 /* Sources */,
+				E800C6E914645E9700ADCAE6 /* Frameworks */,
+				E800C6EA14645E9700ADCAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mandelbrot;
+			productName = Mandelbrot;
+			productReference = E800C6EC14645E9700ADCAE6 /* Mandelbrot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E800C6E314645E9700ADCAE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E800C6E614645E9700ADCAE6 /* Build configuration list for PBXProject "Mandelbrot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E800C6E114645E9700ADCAE6;
+			productRefGroup = E800C6ED14645E9700ADCAE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E800C6EB14645E9700ADCAE6 /* Mandelbrot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E800C6EA14645E9700ADCAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E800C6FB14645E9800ADCAE6 /* InfoPlist.strings in Resources */,
+				E800C70714645E9800ADCAE6 /* ViewController_iPhone.xib in Resources */,
+				E800C70A14645E9800ADCAE6 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E800C6E814645E9700ADCAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E800C6FD14645E9800ADCAE6 /* main.m in Sources */,
+				E800C70114645E9800ADCAE6 /* AppDelegate.m in Sources */,
+				E800C70414645E9800ADCAE6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E800C6F914645E9800ADCAE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E800C6FA14645E9800ADCAE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E800C70514645E9800ADCAE6 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E800C70614645E9800ADCAE6 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E800C70814645E9800ADCAE6 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E800C70914645E9800ADCAE6 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E800C70B14645E9800ADCAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E800C70C14645E9800ADCAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E800C70E14645E9800ADCAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mandelbrot/Mandelbrot-Prefix.pch";
+				INFOPLIST_FILE = "Mandelbrot/Mandelbrot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E800C70F14645E9800ADCAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mandelbrot/Mandelbrot-Prefix.pch";
+				INFOPLIST_FILE = "Mandelbrot/Mandelbrot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E800C6E614645E9700ADCAE6 /* Build configuration list for PBXProject "Mandelbrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E800C70B14645E9800ADCAE6 /* Debug */,
+				E800C70C14645E9800ADCAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E800C70D14645E9800ADCAE6 /* Build configuration list for PBXNativeTarget "Mandelbrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E800C70E14645E9800ADCAE6 /* Debug */,
+				E800C70F14645E9800ADCAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E800C6E314645E9700ADCAE6 /* Project object */;
+}
