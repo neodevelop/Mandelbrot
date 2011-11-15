@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "Fractal.h"
+#import "Dragon.h"
 
 @implementation ViewController
+
+@synthesize fractal = _fractal;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,6 +26,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    _fractal = [[Fractal alloc] initWithFrame:self.view.frame];
+    //Dragon * dragon = [[Dragon alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:_fractal];
+    //[self.view addSubview:dragon];
+    NSLog(@"Cargado");
+    UIPinchGestureRecognizer * pinchGesture = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(pinchHappened:)];
+    [_fractal addGestureRecognizer:pinchGesture];
+}
+
+-(void)pinchHappened:(UIPinchGestureRecognizer *)recognizer{
+    _fractal.transform = CGAffineTransformMakeScale(recognizer.scale, recognizer.scale);
 }
 
 - (void)viewDidUnload
@@ -54,11 +69,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-    } else {
-        return YES;
-    }
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
 @end

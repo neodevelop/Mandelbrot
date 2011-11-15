@@ -16,6 +16,8 @@
 		E800C70414645E9800ADCAE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E800C70314645E9800ADCAE6 /* ViewController.m */; };
 		E800C70714645E9800ADCAE6 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E800C70514645E9800ADCAE6 /* ViewController_iPhone.xib */; };
 		E800C70A14645E9800ADCAE6 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E800C70814645E9800ADCAE6 /* ViewController_iPad.xib */; };
+		E800C71214645F4E00ADCAE6 /* Fractal.m in Sources */ = {isa = PBXBuildFile; fileRef = E800C71114645F4E00ADCAE6 /* Fractal.m */; };
+		E8880AF31464ACA8009CA68F /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = E8880AF21464ACA8009CA68F /* Dragon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,20 @@
 		E800C6F014645E9700ADCAE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E800C6F214645E9800ADCAE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E800C6F414645E9800ADCAE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E800C6F814645E9800ADCAE6 /* Mandelbrot-Info.plist */ = {isa = PBXFileReference; path = "Mandelbrot-Info.plist"; sourceTree = "<group>"; };
+		E800C6F814645E9800ADCAE6 /* Mandelbrot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mandelbrot-Info.plist"; sourceTree = "<group>"; };
 		E800C6FA14645E9800ADCAE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E800C6FC14645E9800ADCAE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E800C6FE14645E9800ADCAE6 /* Mandelbrot-Prefix.pch */ = {isa = PBXFileReference; path = "Mandelbrot-Prefix.pch"; sourceTree = "<group>"; };
-		E800C6FF14645E9800ADCAE6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E800C6FE14645E9800ADCAE6 /* Mandelbrot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mandelbrot-Prefix.pch"; sourceTree = "<group>"; };
+		E800C6FF14645E9800ADCAE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E800C70014645E9800ADCAE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E800C70214645E9800ADCAE6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E800C70214645E9800ADCAE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E800C70314645E9800ADCAE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E800C70614645E9800ADCAE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		E800C70914645E9800ADCAE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		E800C71014645F4E00ADCAE6 /* Fractal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fractal.h; sourceTree = "<group>"; };
+		E800C71114645F4E00ADCAE6 /* Fractal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fractal.m; sourceTree = "<group>"; };
+		E8880AF11464ACA8009CA68F /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		E8880AF21464ACA8009CA68F /* Dragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				E800C70514645E9800ADCAE6 /* ViewController_iPhone.xib */,
 				E800C70814645E9800ADCAE6 /* ViewController_iPad.xib */,
 				E800C6F714645E9800ADCAE6 /* Supporting Files */,
+				E800C71014645F4E00ADCAE6 /* Fractal.h */,
+				E800C71114645F4E00ADCAE6 /* Fractal.m */,
+				E8880AF11464ACA8009CA68F /* Dragon.h */,
+				E8880AF21464ACA8009CA68F /* Dragon.m */,
 			);
 			path = Mandelbrot;
 			sourceTree = "<group>";
@@ -167,6 +177,8 @@
 				E800C6FD14645E9800ADCAE6 /* main.m in Sources */,
 				E800C70114645E9800ADCAE6 /* AppDelegate.m in Sources */,
 				E800C70414645E9800ADCAE6 /* ViewController.m in Sources */,
+				E800C71214645F4E00ADCAE6 /* Fractal.m in Sources */,
+				E8880AF31464ACA8009CA68F /* Dragon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +266,7 @@
 				GCC_PREFIX_HEADER = "Mandelbrot/Mandelbrot-Prefix.pch";
 				INFOPLIST_FILE = "Mandelbrot/Mandelbrot-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -265,6 +278,7 @@
 				GCC_PREFIX_HEADER = "Mandelbrot/Mandelbrot-Prefix.pch";
 				INFOPLIST_FILE = "Mandelbrot/Mandelbrot-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -288,6 +302,7 @@
 				E800C70F14645E9800ADCAE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

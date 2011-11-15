@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Dragon.h
 //  Mandelbrot
 //
 //  Created by neodevelop on 04/11/11.
@@ -7,11 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Fractal.h"
 
-@interface ViewController : UIViewController
-
-@property(strong,nonatomic)Fractal * fractal;
-
+@interface Dragon : UIView
 
 @end
